@@ -1,0 +1,6 @@
+framework module HTMultiCellTypeTableViewSwift {
+  umbrella header "HTMultiCellTypeTableViewSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

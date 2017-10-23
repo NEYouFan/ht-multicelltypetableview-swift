@@ -1,0 +1,6 @@
+framework module Pods_HTMultiCellTypeTableViewSwiftDemo {
+  umbrella header "Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

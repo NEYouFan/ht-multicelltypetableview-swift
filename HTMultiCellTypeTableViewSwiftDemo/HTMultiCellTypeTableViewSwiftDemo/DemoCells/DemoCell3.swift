@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HTMultiCellTypeTableViewSwift
 
 class DemoCell3: MCTableBaseCell {
 

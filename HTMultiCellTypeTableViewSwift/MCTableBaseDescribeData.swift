@@ -8,28 +8,27 @@
 
 import UIKit
 
-class MCTableBaseDescribeData: NSObject {
+open class MCTableBaseDescribeData: NSObject {
 
-    var cellClass: AnyClass = UITableViewCell.self
-    weak var cell: MCTableBaseCell?
-    var customCellClosure: ((MCTableBaseCell, MCTableBaseDescribeData) -> ())?
-    var selectCellClosure: ((MCTableBaseCell, MCTableBaseDescribeData) -> ())?
+    public var cellClass: AnyClass = UITableViewCell.self
+    public weak var cell: MCTableBaseCell?
+    public var customCellClosure: ((MCTableBaseCell, MCTableBaseDescribeData) -> ())?
+    public var selectCellClosure: ((MCTableBaseCell, MCTableBaseDescribeData) -> ())?
     
-    override init() {
+    override public init() {
         super.init()
         customCellClosure = self.defaultCustomCellClosure()
     }
     
-    func defaultCustomCellClosure() -> ((MCTableBaseCell, MCTableBaseDescribeData) -> ()) {
-        let customClosure = {
-            (cell: MCTableBaseCell, descirbeData: MCTableBaseDescribeData) -> () in
+    private func defaultCustomCellClosure() -> ((MCTableBaseCell, MCTableBaseDescribeData) -> ()) {
+        let customClosure = { (cell: MCTableBaseCell, descirbeData: MCTableBaseDescribeData) -> () in
             self.cell = cell
             cell.describeData = self
         }
         return customClosure
     }
     
-    func cellHeight() -> CGFloat {
+    open func cellHeight() -> CGFloat {
         let size = cell?.sizeThatFits(CGSize(width: 0, height: 0))
         return (size?.height)!
     }

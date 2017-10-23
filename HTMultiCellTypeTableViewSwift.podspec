@@ -31,10 +31,10 @@ Pod::Spec.new do |s|
 
   s.author       = { "netease" => "baitianyu2009@gmail.com" }
 
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/NEYouFan/ht-multicelltypetableview-swift.git", :tag => s.version.to_s }
 
-  s.source_files  = "HTMultiCellTypeTableViewSwift/*.{h,m}"
+  s.source_files  = "HTMultiCellTypeTableViewSwift/*.swift"
 
 end

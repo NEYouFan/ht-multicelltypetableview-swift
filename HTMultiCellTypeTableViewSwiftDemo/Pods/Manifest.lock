@@ -1,0 +1,16 @@
+PODS:
+  - HTMultiCellTypeTableViewSwift (0.0.1)
+
+DEPENDENCIES:
+  - HTMultiCellTypeTableViewSwift (from `../`)
+
+EXTERNAL SOURCES:
+  HTMultiCellTypeTableViewSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTMultiCellTypeTableViewSwift: fcf8cb4ee8ab41db5b6bb0f613d1f43c8c1864ac
+
+PODFILE CHECKSUM: 964629c820967eb1fcecc5b731e45ffe5bb21275
+
+COCOAPODS: 1.1.1

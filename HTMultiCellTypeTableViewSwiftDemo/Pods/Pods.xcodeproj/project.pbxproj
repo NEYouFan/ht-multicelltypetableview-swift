@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035CCFF6F6CD7BFF63A61812356835EF /* MCTableBaseDescribeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F693C1C654537CB2A4D588D53D1C198 /* MCTableBaseDescribeData.swift */; };
+		2A02F7571AB977AAEEC9AD1E44DA9C70 /* MCTableBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47526FED530D15C91FFD17280032A82 /* MCTableBaseCell.swift */; };
+		2E5DCD4711DCAA4E69D94C9587B6FFEA /* HTMultiCellTypeTableViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ADE73425A6C151160BE61E34CCC6C4 /* HTMultiCellTypeTableViewSwift-dummy.m */; };
+		5B7144F84C34D213F5CA5F8B55D71B94 /* HTMultiCellTypeTableViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA20F32A7069AB1D103D918A96BA4BF /* HTMultiCellTypeTableViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2885E293B70CB1F9733363761E2EFC /* Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E61DDA488B85D95281624BBF09557F /* Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B3DAF2706376936B3B2361B562B302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BB817A1D99A5995444FED5DD6D30A523 /* MCTableViewRegisterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39099FA667EBBB3351A931D503AC7FEF /* MCTableViewRegisterExtension.swift */; };
+		C925719759972CAA670D630EAD941954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C93D69F7764C7FC4E3B2FEF578B68FBD /* Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490236EF4C9AAE0E3A99A2C2E77D737 /* Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5947DFFA3C85170CFC24B58B3B70818B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93F631EFD3BDE64032237F825A56E25;
+			remoteInfo = HTMultiCellTypeTableViewSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06788E70CDCDF03CD24DD18519446422 /* Pods_HTMultiCellTypeTableViewSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMultiCellTypeTableViewSwiftDemo.framework; path = "Pods-HTMultiCellTypeTableViewSwiftDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EBFF80EE5000BD0809656A2FD4B5A6 /* Pods-HTMultiCellTypeTableViewSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMultiCellTypeTableViewSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0BDF9BF2D202B247EB75DE643880623F /* HTMultiCellTypeTableViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMultiCellTypeTableViewSwift-prefix.pch"; sourceTree = "<group>"; };
+		1490236EF4C9AAE0E3A99A2C2E77D737 /* Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		39099FA667EBBB3351A931D503AC7FEF /* MCTableViewRegisterExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTableViewRegisterExtension.swift; sourceTree = "<group>"; };
+		4487C82ED06CD783BF011CCAD4FDD571 /* HTMultiCellTypeTableViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMultiCellTypeTableViewSwift.framework; path = HTMultiCellTypeTableViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C4CA893D95172443EA393CE9455007 /* HTMultiCellTypeTableViewSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMultiCellTypeTableViewSwift.xcconfig; sourceTree = "<group>"; };
+		6DA20F32A7069AB1D103D918A96BA4BF /* HTMultiCellTypeTableViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMultiCellTypeTableViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		767808BFC7E962EFF60989D9FE45DC21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A328CA89823B8A5AD56DE0583A1E58B /* Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82E61DDA488B85D95281624BBF09557F /* Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B244C4FA9616382060A82A42598FFF9 /* HTMultiCellTypeTableViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HTMultiCellTypeTableViewSwift.modulemap; sourceTree = "<group>"; };
+		9F693C1C654537CB2A4D588D53D1C198 /* MCTableBaseDescribeData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTableBaseDescribeData.swift; sourceTree = "<group>"; };
+		A47526FED530D15C91FFD17280032A82 /* MCTableBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MCTableBaseCell.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFBBFB0F15165017F54FDDA84BA53D5E /* Pods-HTMultiCellTypeTableViewSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMultiCellTypeTableViewSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E2AC48AAEEF3F296DAE79A060661BE3D /* Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2EC06CB7EB15D079433E43950C37471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B303B4C12CE71566A660C4E7282C5C /* Pods-HTMultiCellTypeTableViewSwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTMultiCellTypeTableViewSwiftDemo.modulemap"; sourceTree = "<group>"; };
+		E5FD24B572B4DFC7CBE5B0EF065C2A31 /* Pods-HTMultiCellTypeTableViewSwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F0030ABF703F957830560725351E247B /* Pods-HTMultiCellTypeTableViewSwiftDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMultiCellTypeTableViewSwiftDemo-resources.sh"; sourceTree = "<group>"; };
+		F3ADE73425A6C151160BE61E34CCC6C4 /* HTMultiCellTypeTableViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMultiCellTypeTableViewSwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CCD86F160CC3EDCA808EDF0A2AB3FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3DAF2706376936B3B2361B562B302 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF64C61EE2EC2D3D77E6D16383448D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C925719759972CAA670D630EAD941954 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2554A160883664FF35293090C0C40615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4487C82ED06CD783BF011CCAD4FDD571 /* HTMultiCellTypeTableViewSwift.framework */,
+				06788E70CDCDF03CD24DD18519446422 /* Pods_HTMultiCellTypeTableViewSwiftDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E44EA44407F69E762D04675FEF34A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C098DE32ECC8B4D3220A54BADEDB4891 /* Pods-HTMultiCellTypeTableViewSwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56482EC2E8A137E8B63AD5C05EC524C5 /* HTMultiCellTypeTableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A47526FED530D15C91FFD17280032A82 /* MCTableBaseCell.swift */,
+				9F693C1C654537CB2A4D588D53D1C198 /* MCTableBaseDescribeData.swift */,
+				39099FA667EBBB3351A931D503AC7FEF /* MCTableViewRegisterExtension.swift */,
+			);
+			name = HTMultiCellTypeTableViewSwift;
+			path = HTMultiCellTypeTableViewSwift;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CFE3C0F5BEE0F809201280B3E28E723F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2554A160883664FF35293090C0C40615 /* Products */,
+				49E44EA44407F69E762D04675FEF34A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C098DE32ECC8B4D3220A54BADEDB4891 /* Pods-HTMultiCellTypeTableViewSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				767808BFC7E962EFF60989D9FE45DC21 /* Info.plist */,
+				E3B303B4C12CE71566A660C4E7282C5C /* Pods-HTMultiCellTypeTableViewSwiftDemo.modulemap */,
+				7A328CA89823B8A5AD56DE0583A1E58B /* Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.markdown */,
+				E2AC48AAEEF3F296DAE79A060661BE3D /* Pods-HTMultiCellTypeTableViewSwiftDemo-acknowledgements.plist */,
+				1490236EF4C9AAE0E3A99A2C2E77D737 /* Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m */,
+				E5FD24B572B4DFC7CBE5B0EF065C2A31 /* Pods-HTMultiCellTypeTableViewSwiftDemo-frameworks.sh */,
+				F0030ABF703F957830560725351E247B /* Pods-HTMultiCellTypeTableViewSwiftDemo-resources.sh */,
+				82E61DDA488B85D95281624BBF09557F /* Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h */,
+				09EBFF80EE5000BD0809656A2FD4B5A6 /* Pods-HTMultiCellTypeTableViewSwiftDemo.debug.xcconfig */,
+				CFBBFB0F15165017F54FDDA84BA53D5E /* Pods-HTMultiCellTypeTableViewSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-HTMultiCellTypeTableViewSwiftDemo";
+			path = "Target Support Files/Pods-HTMultiCellTypeTableViewSwiftDemo";
+			sourceTree = "<group>";
+		};
+		CFE3C0F5BEE0F809201280B3E28E723F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF8D26C984DB49008A628388D5D6096 /* HTMultiCellTypeTableViewSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DCF8D26C984DB49008A628388D5D6096 /* HTMultiCellTypeTableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				56482EC2E8A137E8B63AD5C05EC524C5 /* HTMultiCellTypeTableViewSwift */,
+				FA9872359DB7B17E3AFA52324F1850AA /* Support Files */,
+			);
+			name = HTMultiCellTypeTableViewSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FA9872359DB7B17E3AFA52324F1850AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B244C4FA9616382060A82A42598FFF9 /* HTMultiCellTypeTableViewSwift.modulemap */,
+				58C4CA893D95172443EA393CE9455007 /* HTMultiCellTypeTableViewSwift.xcconfig */,
+				F3ADE73425A6C151160BE61E34CCC6C4 /* HTMultiCellTypeTableViewSwift-dummy.m */,
+				0BDF9BF2D202B247EB75DE643880623F /* HTMultiCellTypeTableViewSwift-prefix.pch */,
+				6DA20F32A7069AB1D103D918A96BA4BF /* HTMultiCellTypeTableViewSwift-umbrella.h */,
+				E2EC06CB7EB15D079433E43950C37471 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "HTMultiCellTypeTableViewSwiftDemo/Pods/Target Support Files/HTMultiCellTypeTableViewSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06EE8F1C0EA03D8CF8F1A4A3500A0A1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2885E293B70CB1F9733363761E2EFC /* Pods-HTMultiCellTypeTableViewSwiftDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F4C131FD46E7661E697643190B3CE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7144F84C34D213F5CA5F8B55D71B94 /* HTMultiCellTypeTableViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F2B071245486903BBC41363A2B2F47B /* Pods-HTMultiCellTypeTableViewSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3AC9B9C7DEF5B0D6A74705E6DB856F /* Build configuration list for PBXNativeTarget "Pods-HTMultiCellTypeTableViewSwiftDemo" */;
+			buildPhases = (
+				FC35062789BA50578910C5D8396E4002 /* Sources */,
+				AF64C61EE2EC2D3D77E6D16383448D87 /* Frameworks */,
+				06EE8F1C0EA03D8CF8F1A4A3500A0A1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9041A71F90FF38DED52AF28CD7B37B97 /* PBXTargetDependency */,
+			);
+			name = "Pods-HTMultiCellTypeTableViewSwiftDemo";
+			productName = "Pods-HTMultiCellTypeTableViewSwiftDemo";
+			productReference = 06788E70CDCDF03CD24DD18519446422 /* Pods_HTMultiCellTypeTableViewSwiftDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E93F631EFD3BDE64032237F825A56E25 /* HTMultiCellTypeTableViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762D87D2D1EF38B5745A342A63023253 /* Build configuration list for PBXNativeTarget "HTMultiCellTypeTableViewSwift" */;
+			buildPhases = (
+				059DD6BE038B0FF7BEA1C611C45DF4C8 /* Sources */,
+				9CCD86F160CC3EDCA808EDF0A2AB3FF3 /* Frameworks */,
+				78F4C131FD46E7661E697643190B3CE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTMultiCellTypeTableViewSwift;
+			productName = HTMultiCellTypeTableViewSwift;
+			productReference = 4487C82ED06CD783BF011CCAD4FDD571 /* HTMultiCellTypeTableViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2554A160883664FF35293090C0C40615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93F631EFD3BDE64032237F825A56E25 /* HTMultiCellTypeTableViewSwift */,
+				6F2B071245486903BBC41363A2B2F47B /* Pods-HTMultiCellTypeTableViewSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059DD6BE038B0FF7BEA1C611C45DF4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5DCD4711DCAA4E69D94C9587B6FFEA /* HTMultiCellTypeTableViewSwift-dummy.m in Sources */,
+				2A02F7571AB977AAEEC9AD1E44DA9C70 /* MCTableBaseCell.swift in Sources */,
+				035CCFF6F6CD7BFF63A61812356835EF /* MCTableBaseDescribeData.swift in Sources */,
+				BB817A1D99A5995444FED5DD6D30A523 /* MCTableViewRegisterExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC35062789BA50578910C5D8396E4002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93D69F7764C7FC4E3B2FEF578B68FBD /* Pods-HTMultiCellTypeTableViewSwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9041A71F90FF38DED52AF28CD7B37B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMultiCellTypeTableViewSwift;
+			target = E93F631EFD3BDE64032237F825A56E25 /* HTMultiCellTypeTableViewSwift */;
+			targetProxy = 5947DFFA3C85170CFC24B58B3B70818B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38E5108C9E6078D88426071996258690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBBFB0F15165017F54FDDA84BA53D5E /* Pods-HTMultiCellTypeTableViewSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMultiCellTypeTableViewSwiftDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMultiCellTypeTableViewSwiftDemo/Pods-HTMultiCellTypeTableViewSwiftDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTMultiCellTypeTableViewSwiftDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF50F261A22621196FF255CD3A8E29FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C4CA893D95172443EA393CE9455007 /* HTMultiCellTypeTableViewSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTMultiCellTypeTableViewSwift/HTMultiCellTypeTableViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMultiCellTypeTableViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMultiCellTypeTableViewSwift/HTMultiCellTypeTableViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTMultiCellTypeTableViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE94E08E5230B4AD846D953F455A0ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EBFF80EE5000BD0809656A2FD4B5A6 /* Pods-HTMultiCellTypeTableViewSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMultiCellTypeTableViewSwiftDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMultiCellTypeTableViewSwiftDemo/Pods-HTMultiCellTypeTableViewSwiftDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTMultiCellTypeTableViewSwiftDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3C674D4DFE5E4018C1899618805F4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C4CA893D95172443EA393CE9455007 /* HTMultiCellTypeTableViewSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTMultiCellTypeTableViewSwift/HTMultiCellTypeTableViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMultiCellTypeTableViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMultiCellTypeTableViewSwift/HTMultiCellTypeTableViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTMultiCellTypeTableViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3AC9B9C7DEF5B0D6A74705E6DB856F /* Build configuration list for PBXNativeTarget "Pods-HTMultiCellTypeTableViewSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE94E08E5230B4AD846D953F455A0ED5 /* Debug */,
+				38E5108C9E6078D88426071996258690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762D87D2D1EF38B5745A342A63023253 /* Build configuration list for PBXNativeTarget "HTMultiCellTypeTableViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50F261A22621196FF255CD3A8E29FE /* Debug */,
+				D3C674D4DFE5E4018C1899618805F4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

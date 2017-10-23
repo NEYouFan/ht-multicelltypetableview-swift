@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-public extension UITableView {
+extension UITableView {
 
-    public func register(_ cellClasses: [AnyClass]) {
+    func register(_ cellClasses: [AnyClass]) {
         for cellClass in cellClasses {
             self.register(cellClass, forCellReuseIdentifier: NSStringFromClass(cellClass))
         }
     }
     
-    public func dequeueReusableCell(_ classType: AnyClass) -> UITableViewCell {
+    func dequeueReusableCell(_ classType: AnyClass) -> UITableViewCell {
         return self.dequeueReusableCell(withIdentifier: NSStringFromClass(classType))!
     }
     

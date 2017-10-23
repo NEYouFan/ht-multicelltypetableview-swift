@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HTMultiCellTypeTableViewSwift
 
 protocol MCDemoCell2Delegate {
 
